@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link'
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -26,6 +26,7 @@ const Home: NextPage = () => {
       <main>
   <Heading />
   <Button text="Click Me" onClick={() => alert("Clicked!")} />
+  <Link href="/about">About</Link>
 </main>
 
     </div>
